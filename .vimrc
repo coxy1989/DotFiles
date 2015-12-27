@@ -9,12 +9,13 @@ nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
 nnoremap gR gD:%s/<C-R>///gc<left><left><left>
 nmap =j :%!python -m json.tool<CR>
 
-colorscheme evening
+colorscheme distinguished
 filetype plugin indent on
 syntax on
 set relativenumber
 set autowrite
-if has("gui_running")
-	set transparency=15
-endif
 
+set relativenumber
+set showmatch
+set linebreak
+set breakindent
