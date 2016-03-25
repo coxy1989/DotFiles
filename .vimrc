@@ -21,6 +21,10 @@ nnoremap ˚ <C-W><C-K>
 nnoremap ¬ <C-W><C-L> 
 nnoremap ˙ <C-W><C-H> 
 
+"Buffers - Cycling
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
+
 "SAVING -----------------------------------------------------------------------------------------------------
 
 :au FocusLost * :wa
