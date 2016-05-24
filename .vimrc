@@ -46,7 +46,7 @@ set showmatch
 
 "Cosmetic
 
-colorscheme evening
+colorscheme industry
 set colorcolumn=110
 
 "LINES ------------------------------------------------------------------------------------------------------ 
@@ -60,6 +60,13 @@ set relativenumber
 set linebreak
 set breakindent
 filetype indent plugin on
+
+"CLOJURE ----------------------------------------------------------------------------------------------------
+augroup rainbow_lisp
+autocmd!
+autocmd FileType lisp,clojure,scheme RainbowParentheses
+augroup END
+
 
 "PYTHON -----------------------------------------------------------------------------------------------------
 
