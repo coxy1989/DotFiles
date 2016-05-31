@@ -55,6 +55,9 @@ set colorcolumn=110
 
 set relativenumber
 
+"Higlight Cursor Line
+set cursorline
+
 "Spacing
 
 set linebreak
