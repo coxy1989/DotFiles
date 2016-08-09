@@ -81,6 +81,12 @@ set showmatch
 colorscheme industry
 set colorcolumn=110
 
+"Font
+
+if has('gui_running')
+	  set guifont=Fira\ Code:h12
+  endif
+
 "LINES ------------------------------------------------------------------------------------------------------ 
 
 "Numbers
